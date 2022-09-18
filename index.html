@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love U Ya Rahma</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <canvas id="canvas">Canvas not supported.</canvas>
+    <canvas id="heart"></canvas>
+
+    <h2 id="text1"></h2>
+
+
+
+    <audio id="player" preload="auto" loop>
+        <source src="./01.اغنية سعد المجرد الجديدة الحلق الي عامل قلق.mp3">
+        </source>
+        Your browser does not support the audio element.
+    </audio>
+    <div class="player_container hidden animated">
+        <button data-am-button="small" id="btn-mute"><i class="fa fa-volume-off"></i></button>
+        <button data-am-button="large" id="btn-play-pause"><i class="fa fa-play"></i></button>
+        <button data-am-button="small" id="btn-stop"><i class="fa fa-stop"></i></button>
+        <div id="progress-bar"><span id="progress"></span></div>
+    </div>
+    <div id="opening_screen" class="animated"></div>
+
+    <div class="slideshow">
+        <div class="slider">
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/244559313_3005150566369968_3494183961112440848_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=83RaDL4kQXcAX--yBsS&_nc_ht=scontent.fcai19-4.fna&oh=00_AT9XCHVvMD8RS4eTBZaEaJGzP3LjnfVcVKoPMQXT0auitA&oe=632A76A9" />
+            </div>
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/303455058_3244568635761492_1683408211238008629_n.jpg?stp=cp6_dst-jpg&_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=bwjm_n92droAX-VNQBY&_nc_ht=scontent.fcai19-4.fna&oh=00_AT-eATeI9_S-xJaTvzu2mkDeEBqY-aPi5dSNK4i6Yrar3Q&oe=632B6A3D" />
+            </div>
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/294476577_3212823908935965_3918624479809044702_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=XiMPk7XiewcAX83WCG2&_nc_ht=scontent.fcai19-4.fna&oh=00_AT84zJ4w1YwtpPb0_01q3xopM55XK_kF4tXqd7d6Wl3w5A&oe=632A2C7F" />
+            </div>
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/293058629_3207383259480030_3606984583615166232_n.jpg?stp=cp6_dst-jpg&_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=VDh-dmjw8IIAX-G8cDa&_nc_ht=scontent.fcai19-4.fna&oh=00_AT_CStsbD1qZeLKyc5k7ubWWMZTFv_sV5qOTP6-ir10jFA&oe=632A5B7B" />
+            </div>
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/280088281_3158277961057227_1116402159190638946_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=uicndalV23MAX_Jkz5I&_nc_ht=scontent.fcai19-4.fna&oh=00_AT_UMEeMEp-GRMFNf2YM6d5WD-7aEvGqqO_xDEBqMBvFGA&oe=632A9BCF" />
+            </div>
+            <div class="item">
+                <img
+                    src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/251590989_3028713540680337_1221220013946995467_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_ohc=eYe6H11AFDIAX9UWCtD&_nc_ht=scontent.fcai19-4.fna&oh=00_AT8ftbz8z_-6xJHydx19ZchU6if-zHO_wl7PFOjh9vfW0g&oe=632A91CF" />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
